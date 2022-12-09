@@ -1,10 +1,3 @@
-/**
- * A BLE client example that is rich in capabilities.
- * There is a lot new capabilities implemented.
- * author unknown
- * updated by chegewara
- */
-
 #include <M5StickCPlus.h>
 #include "BLEDevice.h"
 #include <Wire.h>
@@ -254,13 +247,3 @@ void loop() {
   
   delay(10000); // Delay a second between loops.
 } // End of loop
-/*
-void playMusic(const uint8_t* music_data, uint16_t sample_rate) {
-    uint32_t length         = strlen((char*)music_data);
-    uint16_t delay_interval = ((uint32_t)1000000 / sample_rate);
-    for (int i = 0; i < length; i++) {
-        ledcWriteTone(ledChannel, music_data[i] * 50);
-        delayMicroseconds(delay_interval);
-    }
-}
-*/

@@ -1,10 +1,3 @@
-/**
- * A BLE client example that is rich in capabilities.
- * There is a lot new capabilities implemented.
- * author unknown
- * updated by chegewara
- */
-
 #include <M5StickCPlus.h>
 #include "BLEDevice.h"
 //#include "BLEScan.h"
